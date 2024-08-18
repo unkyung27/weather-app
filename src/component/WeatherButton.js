@@ -10,7 +10,7 @@ const WeatherButton = ({getCurrentLocation, cities, setCity, index, setIndex}) =
       // setCity(item);
     }else {
       setIndex(i);
-      // setCity(item);
+      setCity(item);
     }
   }
   return (
